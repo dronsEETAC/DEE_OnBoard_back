@@ -26,7 +26,7 @@ classpip_cert | classpip.upc.edu:8883 with secure websockets and credentials (in
 localhost | localhost:8000 with websockets   
 localhost_cert | localhost:8883 with secure websockets   
 
-options for external broker (third argument) |     
+options for external broker (third argument) | #1    
 --- | --- 
 hivemq | broker.hivemq.com:8000 with websockets 
 hivemq_cert | broker.hivemq.com:8884 with secure websockets  
