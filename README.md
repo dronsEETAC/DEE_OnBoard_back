@@ -17,19 +17,15 @@ Each of the modules in this block has a GitHub repo where you can find the code 
 In order to run and contribute to the modules in this block you need to install versión 3.7 of Python. We recomend you to use PyCharm as IDE for development in Python.
 ## 3. Operation modes
 All services in this block can be run in simulation mode and also in production mode. To use the service in simulation mode, clone the repo in your computer and install de requirements. Be also sure that you have running the internal broker at "localhost:1884". When running the service you must specify the communication and operation mode and also which broker must be used as external broker. To do that you must edit the run/debug configuration in PyCharm, as shown in the image, in order to pass the required arguments to the script implementing the service. At least two parameters are required: connection_mode (global or local) and operation_mode (simulation or production). In case of global communication mode, a third argument is requiered indicating the external broker to be used. The different options for ths third argument are shown in this table:
-options for external broker (third argument) |    
---- | ---
-hivemq | broker.hivemq.com:8000 with websockets    
-hivemq_cert | broker.hivemq.com:8884 with secure websockets    
-classpip-cred |classpip.upc.edu:8000 with websockets and credentials (in the fourth and fifth arguments)   
-classpip_cert | classpip.upc.edu:8883 with secure websockets and credentials (in the fourth and fifth arguments)   
-localhost | localhost:8000 with websockets   
-localhost_cert | localhost:8883 with secure websockets   
 
-options for external broker (third argument) | #1    
+options for external broker (third argument) | Comments    
 --- | --- 
 hivemq | broker.hivemq.com:8000 with websockets 
 hivemq_cert | broker.hivemq.com:8884 with secure websockets  
+classpip-cred |classpip.upc.edu:8000 with websockets and credentials (in the fourth and fifth arguments)   
+classpip_cert | classpip.upc.edu:8883 with secure websockets and credentials (in the fourth and fifth arguments)   
+localhost | localhost:8000 with websockets   
+localhost_cert | localhost:8883 with secure websockets
 
 In case the external broker requieres credentials, two additional parameters must be includes (username and password). The figure shows and example where the external broker does not requires credentials.   
 ![autopilotServiceConfiguration](https://user-images.githubusercontent.com/100842082/212955034-2a9fdd8d-e654-405e-951d-605479ba9928.png)
