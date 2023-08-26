@@ -29,7 +29,7 @@ localhost_cert | localhost:8883 with secure websockets
 options for external broker (third argument) |     
 --- | --- 
 hivemq | broker.hivemq.com:8000 with websockets 
-hivemq_cert | broker.hivemq.com:8884 with secure websockets 
+hivemq_cert | broker.hivemq.com:8884 with secure websockets  
 
 In case the external broker requieres credentials, two additional parameters must be includes (username and password). The figure shows and example where the external broker does not requires credentials.   
 ![autopilotServiceConfiguration](https://user-images.githubusercontent.com/100842082/212955034-2a9fdd8d-e654-405e-951d-605479ba9928.png)
