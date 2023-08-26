@@ -26,7 +26,7 @@ classpip_cert | classpip.upc.edu:8883 with secure websockets and credentials (in
 localhost | localhost:8000 with websockets   
 localhost_cert | localhost:8883 with secure websockets   
 
-ttempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+options for external broker (third argument) | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
 --- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
 Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
 
