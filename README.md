@@ -28,7 +28,8 @@ localhost | localhost:8000 with websockets
 localhost_cert | localhost:8883 with secure websockets
 
 In case the external broker requieres credentials, two additional parameters must be includes (username and password). The figure shows and example where the external broker does not requires credentials.   
-![autopilotServiceConfiguration](https://user-images.githubusercontent.com/100842082/212955034-2a9fdd8d-e654-405e-951d-605479ba9928.png)
+![runConfig](https://github.com/dronsEETAC/DEE_OnBoard/assets/100842082/09c20edf-552f-436a-87bd-90192d75a299)
+
    
 MODIFICAR LO SIGUIENTE CUANDO EL SOFTWARE ON BOARD ESTE EN DOCKER
 To run the autopilot service in production mode you will need the boot.py script that you will find in the main repo of the Drone Engineering Ecosystem. Follow the instruction that you will find in that repo.
