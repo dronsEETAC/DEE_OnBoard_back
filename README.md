@@ -12,7 +12,11 @@ Each of the modules in this block has a GitHub repo where you can find the code 
 [![DroneEngineeringEcosystem Badge](https://img.shields.io/badge/DEE-LEDsService-brightgreen.svg)](https://github.com/dronsEETAC/LEDsControllerDEE) an on-board module that controls the LEDs of the drone platform to inform of the status of the drone platform, or a servo installed in the platform, as required by other modules.  
     
 * *Monitor*:
-[![DroneEngineeringEcosystem Badge](https://img.shields.io/badge/DEE-Monitor-brightgreen.svg)](https://github.com/dronsEETAC/MonitorDEE) records on board data for future analysis (for instance, all the messages send through the brokers.    
+[![DroneEngineeringEcosystem Badge](https://img.shields.io/badge/DEE-Monitor-brightgreen.svg)](https://github.com/dronsEETAC/MonitorDEE) records on board data for future analysis (for instance, all the messages send through the brokers.
+     
+* *Air API REST*:
+[![DroneEngineeringEcosystem Badge](https://img.shields.io/badge/Air_API_REST-brightgreen.svg)](https://github.com/dronsEETAC/AirAPIREST) records on board data for future analysis (for instance, all the messages send through the brokers.      
+
 ## 2. Python and PyCharm
 In order to run and contribute to the modules in this block you need to install versión 3.7 of Python. We recomend you to use PyCharm as IDE for development in Python.
 ## 3. Operation modes
